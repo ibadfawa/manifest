@@ -22,6 +22,14 @@
   <remote name="pixel-devices-blobs"
           fetch="https://gitlab.pixelexperience.org/android/vendor-blobs"
           revision="thirteen" />
+  
+  <remote name="pixel-exc"
+          fetch="https://github.com/PixelExperience-EXCLUSIVE-edition"
+          revision="thirteen" />
+
+  <remote name="pixel-exc-plus"
+          fetch="https://github.com/PixelExperience-EXCLUSIVE-edition"
+          revision="thirteen-plus" />
 
   <!-- External repos -->
   <project path="external/avb" name="external_avb" remote="pixel" />
@@ -42,8 +50,8 @@
   <project path="external/wpa_supplicant_8" name="external_wpa_supplicant_8" remote="pixel" />
 
   <!-- Framework repos -->
-  <project path="frameworks/av" name="frameworks_av" remote="pixel" />
-  <project path="frameworks/base" name="frameworks_base" remote="pixel-plus" />
+  <project path="frameworks/av" name="frameworks_av" remote="pixel-exc" />
+  <project path="frameworks/base" name="frameworks_base" remote="pixel-exc-plus" />
   <project path="frameworks/native" name="frameworks_native" remote="pixel" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="pixel" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="pixel" />
@@ -53,7 +61,7 @@
   <!-- General repos -->
   <project path="art" name="art" remote="pixel" />
   <project path="bionic" name="bionic" remote="pixel" />
-  <project path="build/make" name="build" remote="pixel">
+  <project path="build/make" name="build" remote="pixel-exc">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -72,7 +80,7 @@
   <project path="device/google/cuttlefish" name="device_google_cuttlefish" remote="pixel" />
   <project path="device/google/contexthub" name="device_google_contexthub" remote="pixel" />
   <project path="kernel/configs" name="kernel_configs" remote="pixel" />
-  <project path="manifest" name="manifest" remote="pixel-plus" />
+  <project path="manifest" name="manifest" remote="pixel-exc-plus" />
   <project path="libcore" name="libcore" remote="pixel" />
   <project path="platform_testing" name="platform_testing" remote="pixel" />
 
@@ -113,7 +121,7 @@
   <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" remote="pixel" />
   <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="pixel" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="pixel" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pixel-plus" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pixel-exc-plus" />
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="pixel" />
   <project path="packages/apps/Traceur" name="packages_apps_Traceur" remote="pixel" />
   <project path="packages/modules/adb" name="packages_modules_adb" remote="pixel" />
@@ -149,7 +157,7 @@
   <project path="system/netd" name="system_netd" remote="pixel" />
   <project path="system/nfc" name="system_nfc" remote="pixel" />
   <project path="system/security" name="system_security" remote="pixel" />
-  <project path="system/sepolicy" name="system_sepolicy" remote="pixel" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="pixel-exc" />
   <project path="system/timezone" name="system_timezone" remote="pixel" />
   <project path="system/tools/hidl" name="system_tools_hidl" remote="pixel" />
   <project path="system/tools/mkbootimg" name="system_tools_mkbootimg" remote="pixel" />
