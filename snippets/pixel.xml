@@ -24,11 +24,11 @@
           revision="thirteen" />
   
   <remote name="pixel-exc"
-          fetch="https://github.com/PixelExperience-EXCLUSIVE-edition"
+          fetch="https://github.com/PixelExperience-LEGACY-edition"
           revision="thirteen" />
 
   <remote name="pixel-exc-plus"
-          fetch="https://github.com/PixelExperience-EXCLUSIVE-edition"
+          fetch="https://github.com/PixelExperience-LEGACY-edition"
           revision="thirteen-plus" />
 
   <!-- External repos -->
@@ -78,9 +78,9 @@
   <project path="build/blueprint" name="build_blueprint" remote="pixel" />
   <project path="bootable/recovery" name="bootable_recovery" remote="pixel" />
   <project path="development" name="development" remote="pixel" />
-  <project path="device/google/cuttlefish" name="device_google_cuttlefish" remote="pixel" />
+  <project path="device/google/cuttlefish" name="device_google_cuttlefish" remote="pixel-exc" />
   <project path="device/google/contexthub" name="device_google_contexthub" remote="pixel" />
-  <project path="kernel/configs" name="kernel_configs" remote="pixel" />
+  <project path="kernel/configs" name="kernel_configs" remote="pixel-exc" />
   <project path="manifest" name="manifest" remote="pixel-exc-plus" />
   <project path="libcore" name="libcore" remote="pixel" />
   <project path="platform_testing" name="platform_testing" remote="pixel" />
