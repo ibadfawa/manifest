@@ -1212,4 +1212,7 @@
   <include name="snippets/pixel-extras.xml" />
   <include name="snippets/pixel-caf.xml" />
 
+  <!-- Track LineageOS fork repos -->
+  <include name="snippets/lineage-forks.xml" />
+
 </manifest>

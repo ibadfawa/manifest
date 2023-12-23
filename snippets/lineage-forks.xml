@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="lineage-forks"
+          fetch="https://github.com"
+          revision="lineage-20.0"/>
+
+<!-- Track Fork repos -->
+  <project path="external/libxml2" name="LineageOS/android_external_libxml2" remote="lineage-forks" />
+  <project path="tools/apksig" name="LineageOS/android_tools_apksig" remote="lineage-forks"/>
+  <project path="packages/modules/DnsResolver" name="LineageOS/android_packages_modules_DnsResolver" remote="lineage-forks" />
+  <project path="packages/modules/StatsD" name="LineageOS/android_packages_modules_StatsD" remote="lineage-forks" />
+  <project path="system/ca-certificates" name="LineageOS/android_system_ca-certificates" remote="lineage-forks" />
+  <project path="cts" name="LineageOS/android_cts" remote="lineage-forks" />
+  <project path="external/pdfium" name="LineageOS/android_external_pdfium" remote="lineage-forks" />
+</manifest>
