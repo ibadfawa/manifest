@@ -118,9 +118,9 @@
   <project path="hardware/st/nfc" name="hardware_st_nfc" remote="pixel" />
 
   <!-- Packages repos -->
-  <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="pixel" />
+  <project path="packages/apps/Camera2" name="packages_apps_Camera2" remote="pixel-exc" />
   <project path="packages/apps/CarrierConfig" name="packages_apps_CarrierConfig" remote="pixel" />
-  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="pixel" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="pixel-exc" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="pixel" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="pixel-exc-plus" />
   <project path="packages/apps/Stk" name="packages_apps_Stk" remote="pixel" />
