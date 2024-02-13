@@ -129,10 +129,10 @@
   <project path="packages/modules/Bluetooth" name="packages_modules_Bluetooth" remote="pixel-exc" />
   <project path="packages/modules/Connectivity" name="packages_modules_Connectivity" remote="pixel-plus" />
   <project path="packages/modules/NetworkStack" name="packages_modules_NetworkStack" remote="pixel" />
-  <project path="packages/modules/Permission" name="packages_modules_Permission" remote="pixel" />
+  <project path="packages/modules/Permission" name="packages_modules_Permission" remote="pixel-exc" />
   <project path="packages/modules/Virtualization" name="packages_modules_Virtualization" remote="pixel" />
   <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="pixel" />
-  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="pixel" />
+  <project path="packages/providers/DownloadProvider" name="packages_providers_DownloadProvider" remote="pixel-exc" />
   <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="pixel" />
   <project path="packages/services/BuiltInPrintService" name="packages_services_BuiltInPrintService" remote="pixel" />
   <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="pixel-exc-plus" />
@@ -144,7 +144,7 @@
   <!-- System Repos -->
   <project path="system/apex" name="system_apex" remote="pixel" />
   <project path="system/bpf" name="system_bpf" remote="pixel" />
-  <project path="system/core" name="system_core" remote="pixel" />
+  <project path="system/core" name="system_core" remote="pixel-exc" />
   <project path="system/extras" name="system_extras" remote="pixel" />
   <project path="system/incremental_delivery" name="system_incremental_delivery" remote="pixel" />
   <project path="system/libhidl" name="system_libhidl" remote="pixel" />
