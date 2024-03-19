@@ -5,7 +5,7 @@
 ```bash
 
 # Initialize local repository
-repo init -u https://github.com/PixelExperience-LEGACY-edition/manifest.git -b thirteen-plus
+repo init -u https://github.com/PixelExperience-LEGACY-edition/manifest.git -b thirteen-plus --depth=1
 
 # Sync
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
@@ -22,5 +22,5 @@ $ . build/envsetup.sh
 $ lunch aosp_$device-userdebug
 
 # Build the code
-$ mka bacon -jX
+$ mka bacon -j$(nproc --all) | tee log.txt
 ```
