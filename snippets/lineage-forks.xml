@@ -14,4 +14,5 @@
   <project path="cts" name="LineageOS/android_cts" remote="lineage-forks" />
   <project path="external/pdfium" name="LineageOS/android_external_pdfium" remote="lineage-forks" />
   <project path="packages/modules/NeuralNetworks" name="LineageOS/android_packages_modules_NeuralNetworks" remote="lineage-forks"/>
+  <project path="external/sonivox" name="LineageOS/android_external_sonivox" remote="lineage-forks"/>
 </manifest>
