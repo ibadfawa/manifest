@@ -223,6 +223,7 @@
   <remove-project name="platform/system/tools/hidl" />
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/vold" />
+  <remove-project name="platform/system/libfmq" />
 
   <!-- Test repos -->
   <remove-project name="platform/cts" />
