@@ -11,18 +11,6 @@
           revision="thirteen-plus"
           review="gerrit.pixelexperience.org" />
 
-  <remote name="pixel-gitlab"
-          fetch="https://gitlab.com/userariii/"
-          revision="thirteen" />
-
-  <remote name="pixel-devices"
-          fetch="https://github.com/PixelExperience-Devices"
-          revision="thirteen" />
-
-  <remote name="pixel-devices-blobs"
-          fetch="https://gitlab.pixelexperience.org/android/vendor-blobs"
-          revision="thirteen" />
-  
   <remote name="pixel-exc"
           fetch="https://github.com/PixelExperience-LEGACY-edition"
           revision="thirteen" />
@@ -30,6 +18,14 @@
   <remote name="pixel-exc-plus"
           fetch="https://github.com/PixelExperience-LEGACY-edition"
           revision="thirteen-plus" />
+
+  <remote name="pixel-gitlab"
+          fetch="https://gitlab.com/userariii/"
+          revision="thirteen" />
+
+  <remote name="pixel-gms"
+          fetch="https://gitlab.com/userariii/"
+          revision="thirteen_OEM" />
 
   <!-- External repos -->
   <project path="external/avb" name="external_avb" remote="pixel" />
