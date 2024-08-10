@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="aosp"
-           fetch="https://android.googlesource.com"
+  <remote  name="aosp"
+           fetch=".."
            review="https://android-review.googlesource.com/" />
-
+  <default revision="main"
+           remote="aosp"
+           sync-j="4" />
   <remote name="github"
           fetch="https://github.com/" />
 
   <remote name="gitlab"
           fetch="https://gitlab.com" />
-<default revision="main"
-           remote="aosp"
-           sync-j="4" />
 
-
+  <superproject name="platform/superproject/main" remote="aosp"/>
 <project path="device/generic/arm64" name="device/generic/arm64" groups="pdk" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" />
   <project path="device/generic/art" name="device/generic/art" groups="pdk" />
