@@ -3,6 +3,11 @@
   <remote  name="aosp"
            fetch=".."
            review="https://android-review.googlesource.com/" />
+  <remote name="github"
+          fetch="https://github.com/" />
+
+  <remote name="gitlab"
+          fetch="https://gitlab.com" />
   <default revision="main"
            remote="aosp"
            sync-j="4" />
