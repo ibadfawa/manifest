@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote  name="aosp"
-           fetch=".."
+ 
+  <remote name="aosp"
+           fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
+
   <remote name="github"
           fetch="https://github.com/" />
 
   <remote name="gitlab"
           fetch="https://gitlab.com" />
-  <default revision="main"
+
+  <default revision="refs/tags/android-13.0.0_r83"
            remote="aosp"
-           sync-j="4" />
-  <manifest-server url="http://android-smartsync.corp.google.com/android.googlesource.com/manifestserver" />
+           sync-j="4"
+           sync-c="true"
+           sync-f="true" />
+ 
   <superproject name="platform/superproject/main" remote="aosp"/>
   <contactinfo bugurl="go/repo-bug" />
   <project path="build/make" name="platform/build" groups="pdk" >
