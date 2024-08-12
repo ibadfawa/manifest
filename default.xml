@@ -18,7 +18,6 @@
     <linkfile src="tools" dest="build/tools" />
   </project>
 
-  <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
   <!--
     Merge marker to make it easier for git to merge AOSP-only manifest
     changes to a custom manifest.  Please keep this marker here and
